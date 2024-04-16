@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.box img {
+    margin-top: 80px;
+}
+.container {
+    width: 900px;
+    height: 600px;
+    margin-top: 160px;
+    background-color: rgba(0, 255, 255, 0.493);
+    display: flex;
+    justify-content: center;
+    border-radius: 7px;
+    box-shadow: 5px 15px 40px rgba(26, 27, 27, 0.650);
+}
+
+.formulario {
+    background: #fff;
+    width: 400px;
+    margin-left: 200px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 16px 40px rgba(26, 27, 27, 0.650);
+}
+
+.formulario input {
+    display: block;
+}
+
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario textarea {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    border: none;
+    border-bottom:1px solid #226fc1;
+    font-family: Arial;
+    font-size: 16px;
+}
+.formulario textarea {
+    min-height: 120px;
+    max-height: 300px;
+    min-width: 100%;
+    max-width: 100%;
+}
+
+.formulario input[type="submit"] {
+    width: 150px;
+    margin: 0 auto;
+    background: none;
+    border: 1px solid #4fb560;
+    color: #4fb560;
+    padding:10px ;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 3px;
+}
+
+.formulario input[type="submit"]:hover {
+    background: #4fb560;
+    color: #fff;
+}
+
